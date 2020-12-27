@@ -1,0 +1,6 @@
+1. di vue untuk menggunakan http biasa menggunakan javascript fetch / atau bisa dengan axioos
+2. untuk melakukan loading sama dengan angular hanya perlu mendefinisikan hal2 yang diperlukan
+3. ketika ingin load data di firebase maka perlu klik "loadSurveys()". agar data bisa load otomatis kita gunakan lifecycle hook
+   mounted dimana fungsinya sama dengan ngOninit() , jadi effectnya bisa langsung ke load otomatis 
+4. untuk kondisi tidak ada data maka bisa manfaatkan directive template
+5. untuk mengakali error response bisa menggunakan "throw error" dengan bantuang status dari error itu sendiri . semisal output error 400, 200
