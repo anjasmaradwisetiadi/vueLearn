@@ -1,0 +1,4 @@
+1. dalam form binding di vue ada 3 jenis modifier input (lazy, number, trim) coba tanyakan kasus dan keperluannya
+2. dalam menggunakan "<select>" di vue kalau nilai select nya kita definisikan terlebih dahulu maka select akan memunculkan juga nilai sesuai
+   option yang dimiliki.
+3. coba check perbedaan form ini dengan lecture ke-8 

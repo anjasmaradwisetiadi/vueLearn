@@ -1,0 +1,10 @@
+1. dalam menggunakan props di cli berbeda dengan di cdn , 
+  A. cdn: kalau di cdn harus di binding, snakeCase lalu menggunakan properti propsnya
+  B. CLI: kalau di cli gak perlu binding hanya perlu snakeCase
+2. di props ada yang namanya "validators" : . validators yang di vue berbeda dengan angular. props validators mengecheck apa yang dikirim , sedangkan validators
+  di angular khususnya input lebih bersifat check nilai
+3. di props juga bisa memberikan "required" juga file yang perlu diminta 
+4. penggunaan props ketika properti camelCase maka untuk binding dari parent harus snake case. tetapi bila emit bisa camel case ataupun snake case
+5. jika data ditarik langsung dari parent dan dipakai ke child yang mana digunakan langsung di script untuk melakukan suatu kondisi maka akan error "mutation"
+  mengatasi masalahnya caranya dari "props:" di passing ke data "baru:" , di ambil dari data:
+6. ada juga untuk point 5 kalau sekedar membawa data dari parent ke child di "<script>" dengan "$emit"seperti learn 94. maka tidak perlu di masukan ke  "data:"
