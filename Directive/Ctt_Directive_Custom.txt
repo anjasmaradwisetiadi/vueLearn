@@ -1,0 +1,1 @@
+1. directive custom di Vue sama juga dengan directive di angular.  

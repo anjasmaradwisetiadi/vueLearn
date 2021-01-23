@@ -1,0 +1,9 @@
+1. filters sama dengan pipes yang ada di angular, yaitu melakukan transform pada text . bisa transform ke uppercase lowercase dan lain sebagainya
+2. filters dapat bersifat global ataupun local 
+3. filters juga bisa dimanfaatkan untuk filter text dimana pemanfaatanya di "computed"
+4. di lecture 510. ada sebuah kasus dimana kita panggil life cyle hook "created" adalah dimana ketika dipanggil maka terlihat di debug akan 
+   memanggil 2X karena mixin dipanggil di 2 component AnotherFilter.vue dan App.vue.
+5. ada cara agar tidak dipanngil 2x, cukup 1X dengan nilai yang sama yaitu "merge mixin"
+6. di lecture 512. maka ada sebuah kasus dimana kita mencoba menambahkan sebuah data ke "fruits[]" di "App.vue" tetapi yang bertambah hanya di 
+   satu component saja. ini berarti membuktikan bahwa mixin dalam satu kode digunakan ke beberapa component , cakupannya perubahannya hanya di local
+   /scoped saja 
