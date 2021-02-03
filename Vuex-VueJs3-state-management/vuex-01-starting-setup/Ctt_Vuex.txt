@@ -1,0 +1,14 @@
+1. agar bisa menggunakan Vuex kita harus mengerti ##core concepts## di VUex.##core concepts## di VUex ada 5: State, Getters, Muttations, Actions, Modules  
+1. untuk menggunakan vuex harus install terlebih dahulu dan ketika ada problem di udemy dalam penggunaan library vuex gunakan 
+   vuex version 4 dengan command: "npm install --save vuex@next". tapi uninstall dulu library vuex sebelumnya 
+2. untuk penggunaan "mutation" di VUEX kita gunakan ketika kita ingin mempunyai method atau logic dimana digunakan bersama2 dalam component berbeda
+   . manfaatnya adalah menghindari kesalahan dalam penggunaan logic diberbeda component, intinya logic jadi terpusat di satu component vuex.
+3. point-2 bisa juga diberikan sebuah parameter pada "commit". "commit" disini memanggil method dari "mutation" di component. jadi ketika menggunakan
+   "commit" bisa digunakan parameter sebutanya adalah "payload"
+4. mengenal "getters" adalah concept seperti "mutation" bisa digunakan bersama2 ke beberapa component tetapi khusus untuk "computed" saja.
+5. lalu ada yang namanya "action". hal tersebut berfungsi untuk sama seperti "mutation" hanya perbedaan besarnya ada di bila "mutation" hanya bisa 
+   syncronous sedangkan "action" bisa asyncronous. dan perlu menggunakan parameter "context" karena "context" berisi: "getters" ,"state", "commit", "dispatch"
+6. perbedaan lain antara "action" dan "mutation" adalah penggunaan trigger nya. bila "mutation" menggunakan "commit" sedangkan "action" menggunakan 
+   "dispatch"
+7. bila kita membutuhkan lebih dari satu "getters","mutations","actions" dalam satu component kita bisa menggunakan mapHellpers (...map{core_concept_vuex}) 
+   dimana kita bisa mengambil banyak core concepts yang dibutuhkan.

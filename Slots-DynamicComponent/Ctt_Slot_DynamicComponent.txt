@@ -1,0 +1,4 @@
+1. slot digunakan untuk membaca taq html di parent dibawa menuju ke child.
+2. untuk styling nya hanya bersifat scope berlaku ketika di child saja, walapun code taq nya ada di parent.
+3. ketika menggunakan dynamic component maka component yang terpanggil akan melakukan destroyed.
+4. untuk mengatasi itu bisa menggunakan <keep-live> untuk membatalkan destroyed dari dynamic component.
